@@ -163,7 +163,7 @@
                             }
                         }
                         
-                        section {
+                        .container {
                             padding: pixelsToRems(45px) pixelsToRems(0px) pixelsToRems(33px);
                         }
                         
@@ -314,7 +314,7 @@
                                     }
                                 }
                             }
-                            section {
+                            .container {
                                 padding: 0;
                                 grid-area: 2 / 1 / 3 / 2;
                                 margin-left: pixelsToRems(31px);
@@ -394,7 +394,7 @@
                                 &__title {
                                     position: relative;
                                     position: relative;
-                                    left: pixelsToRems(150.5px);
+                                    left: pixelsToRems(155.5px);
                                     top: pixelsToRems(48px);
                                 }
                                 &__paragraph {
@@ -403,7 +403,7 @@
                                     width: pixelsToRems(432px);
                                     padding: pixelsToRems(24px) 0 pixelsToRems(42.4px);
                                     position: relative;
-                                    left: pixelsToRems(150.5px);
+                                    left: pixelsToRems(155.5px);
                                     top: pixelsToRems(48px);
                                     text-align: left;
                                     font-weight: 400;
@@ -445,7 +445,7 @@
                                     }
                                 }
                             }
-                            section {
+                            .container {
                                 padding: 0;
                                 grid-area: 2 / 1 / 3 / 2;
                             }
