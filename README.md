@@ -57,7 +57,7 @@ Mobile version
 
 ### What I learned
 
-Learned and implemented Sass - variables, mixins. Working with Mobile first workflow is better for faster development. I've been working on DOM manipulation, event handlers and regular expression.
+Learned and implemented Sass - variables, mixins. Working with Mobile first workflow is better for faster development. I've been working on DOM manipulation, event handlers and regular expressions.
 
 ```js
 const form = document.getElementById("form"),
@@ -97,7 +97,7 @@ form.addEventListener("submit", (e) => {
 ```
 ### Continued development
 
-In future, I want to work and implement more with DOM manipulation and CSS grid.
+In future, I want to work and implement DOM manipulation and CSS grid.
 
 ## Author
 
