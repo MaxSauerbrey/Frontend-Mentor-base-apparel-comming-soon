@@ -450,8 +450,8 @@ section {
   .card__title {
     position: relative;
     position: relative;
-    left: 9.21875rem;
-    top: 2.875rem;
+    left: 9.40625rem;
+    top: 3rem;
   }
   .card__paragraph {
     font-size: 1rem;
@@ -459,8 +459,8 @@ section {
     width: 27rem;
     padding: 1.5rem 0 2.65rem;
     position: relative;
-    left: 9.21875rem;
-    top: 2.875rem;
+    left: 9.40625rem;
+    top: 3rem;
     text-align: left;
     font-weight: 400;
     letter-spacing: normal;

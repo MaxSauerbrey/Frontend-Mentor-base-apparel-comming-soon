@@ -22,7 +22,7 @@ form.addEventListener("submit", (e) => {
         form.reset();
 
     } else {
-        $img.setAttribute("src", "../images/icon-error.svg");
+        $img.setAttribute("src", "./images/icon-error.svg");
         $img.setAttribute("alt", "error-form");
         $img.classList.add("card__alert");
         $text.classList.add("card__msg");
