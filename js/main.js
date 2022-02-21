@@ -4,7 +4,8 @@ const form = document.getElementById("form"),
     $img = document.createElement("img"),
     $card = document.querySelector(".card__form"),
     $textContent = document.createTextNode("Please Provide a valid email"),
-    $input = document.querySelector("input");
+    $input = document.querySelector("input"),
+    $fragment = document.createDocumentFragment();
 
 const regExx = {
     email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
@@ -21,8 +22,6 @@ form.addEventListener("submit", (e) => {
         form.reset();
 
     } else {
-        console.log("whatt");
-        // form.reset();
         $img.setAttribute("src", "../images/icon-error.svg");
         $img.setAttribute("alt", "error-form");
         $img.classList.add("card__alert");
